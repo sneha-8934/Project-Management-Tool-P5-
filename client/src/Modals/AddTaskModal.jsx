@@ -24,7 +24,7 @@ function AddTaskModal({ isOpen, closeModal }) {
             <div className="modal-container bg-white
              w-full md:w-1/3 mx-auto mt-20 p-6 rounded shadow-lg">
                 <div className="modal-header flex justify-between items-center">
-                    <h3 className="text-lg font-semibold">Add New Task</h3>
+                    <h3 className="text-lg font-semibold">Add New Project</h3>
                     <button className="text-gray-500 hover:text-gray-800"
                         onClick={closeModal}>X</button>
                 </div>
@@ -58,7 +58,7 @@ function AddTaskModal({ isOpen, closeModal }) {
                                        text-white font-bold 
                                        py-2 px-4 rounded" 
                             onClick={handleSubmit}>
-                        Add Task
+                        Add Project
                     </button>
                 </div>
             </div>
@@ -67,3 +67,4 @@ function AddTaskModal({ isOpen, closeModal }) {
 }
 
 export default AddTaskModal;
+

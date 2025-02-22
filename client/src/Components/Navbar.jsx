@@ -20,7 +20,7 @@ function Navbar() {
              justify-between items-center">
                 <div>
                     <span className="text-white text-lg
-                     font-bold">Task Manager</span>
+                     font-bold">Project Manager</span>
                 </div>
 
                 <div>
